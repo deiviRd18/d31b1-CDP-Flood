@@ -13,11 +13,6 @@ Este repositorio contiene una colección de herramientas ofensivas desarrolladas
 * **Técnica:** Utiliza **Raw Sockets** para inyección de paquetes a alta velocidad (>50k pps), saturando la tabla de vecinos CDP y agotando la CPU/RAM del objetivo.
 * **Estado:** `Stable`
 
-### 2. 🕵️‍♂️ ARP Spoofing (MitM)
-* **Objetivo:** Interceptación de tráfico (Man-in-the-Middle).
-* **Técnica:** Envenenamiento de tablas ARP (ARP Poisoning) con IP Forwarding automático para mantener la conectividad de la víctima.
-* **Estado:** `Stable`
-
 ---
 
 ## ⚙️ Instalación
@@ -39,9 +34,5 @@ Todas las herramientas requieren privilegios de root (sudo) debido al uso de soc
 `
 sudo python3 d31b1_cdp_flood.py`
 
-Ejecutar ARP Spoofing:
-
-`
-sudo python3 d31b1_arpoof.py`
 
 Author: Junior (D31B1)
