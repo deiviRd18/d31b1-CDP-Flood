@@ -1,26 +1,24 @@
-# ⚔️ d31b1-Pentest-Suite
+# 💀 D31B1 - CDP Flood Tool (DoS)
 
-**Custom Python Pentesting Suite for Network Security Assessments.**
+**Herramienta de prueba de estrés para dispositivos Cisco (CDP Table Exhaustion).**
 
-Este repositorio contiene una colección de herramientas ofensivas desarrolladas en Python para auditoría de redes, pruebas de estrés (Stress Testing) y análisis de protocolos.
+Este script implementa un ataque de Denegación de Servicio (DoS) saturando la tabla de vecinos del protocolo CDP (Cisco Discovery Protocol). A diferencia de otras herramientas, utiliza **Raw Sockets** para inyectar paquetes directamente desde el kernel, logrando una velocidad de ataque masiva capaz de agotar la memoria y CPU del objetivo en segundos.
 
-> **⚠️ Disclaimer:** Herramientas creadas con fines estrictamente educativos y de investigación académica. El autor no se hace responsable del mal uso.
+> **⚠️ Disclaimer:** Herramienta desarrollada con fines estrictamente académicos para la asignatura de Seguridad Informática. El autor no se hace responsable del uso en redes no autorizadas.
 
-## 🧰 Herramientas Incluidas (Tools)
-
-### 1. 💀 CDP Flood (Raw Socket Edition)
-* **Objetivo:** Denegación de Servicio (DoS) en dispositivos Cisco.
-* **Técnica:** Utiliza **Raw Sockets** para inyección de paquetes a alta velocidad (>50k pps), saturando la tabla de vecinos CDP y agotando la CPU/RAM del objetivo.
-* **Estado:** `Stable`
-
----
+## 📋 Características Técnicas
+* **Motor High-Speed:** Uso de `AF_PACKET` (Raw Sockets) para bypass de la pila de red tradicional, permitiendo >50,000 pps.
+* **Payload Dinámico:** Generación aleatoria de miles de identidades falsas (Ej. `D31B1_Ghost_XXXX`) para llenar la memoria RAM del dispositivo.
+* **Objetivo:** Dispositivos Cisco con CDP habilitado (Routers, Switches).
 
 ## ⚙️ Instalación
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/deiviRd18/d31b1-Pentest-Suite.git](https://github.com/deiviRd18/d31b1-Pentest-Suite.git)
-   cd d31b1-Pentest-Suite
+   git clone [https://github.com/deiviRd18/D31B1-CDP-Flood.git](https://github.com/deiviRd18/D31B1-CDP-Flood.git)
+   cd D31B1-CDP-Flood
+---
+
 ## Instalar dependencias: Se requiere Python 3 y la librería Scapy.
 
 `
