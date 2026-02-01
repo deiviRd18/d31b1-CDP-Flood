@@ -15,7 +15,7 @@ Este script implementa un ataque de Denegación de Servicio (DoS) saturando la t
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/deiviRd18/D31B1-CDP-Flood.git](https://github.com/deiviRd18/D31B1-CDP-Flood.git)
+   git clone [https://github.com/deiviRd18/d31b1-CDP-Flood.git](https://github.com/deiviRd18/D31B1-CDP-Flood.git)
    cd D31B1-CDP-Flood
 ---
 
