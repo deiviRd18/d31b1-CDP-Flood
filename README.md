@@ -41,7 +41,7 @@ sudo python3 d31b1_cdp_flood.py`
 
 Ejecutar ARP Spoofing:
 
-```Bash
+`Bash
+sudo python3 d31b1_arpoof.py`
 
-sudo python3 d31b1_arpoof.py
 Author: Junior (D31B1)
