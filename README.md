@@ -28,7 +28,7 @@ Este repositorio contiene una colección de herramientas ofensivas desarrolladas
    cd d31b1-Pentest-Suite
 ## Instalar dependencias: Se requiere Python 3 y la librería Scapy.
 
-`Bash
+`
 pip3 install scapy`
 
 ## 🚀 Uso (Usage)
@@ -36,12 +36,12 @@ Todas las herramientas requieren privilegios de root (sudo) debido al uso de soc
 
 ## Ejecutar CDP Flood:
 
-`Bash
+`
 sudo python3 d31b1_cdp_flood.py`
 
 Ejecutar ARP Spoofing:
 
-`Bash
+`
 sudo python3 d31b1_arpoof.py`
 
 Author: Junior (D31B1)
