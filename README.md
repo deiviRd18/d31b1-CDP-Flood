@@ -4,6 +4,8 @@
 
 Este script implementa un ataque de Denegación de Servicio (DoS) saturando la tabla de vecinos del protocolo CDP (Cisco Discovery Protocol). A diferencia de otras herramientas, utiliza **Raw Sockets** para inyectar paquetes directamente desde el kernel, logrando una velocidad de ataque masiva capaz de agotar la memoria y CPU del objetivo en segundos.
 
+[![Demostración de Ataque CDP Flood](https://img.youtube.com/vi/F5ignnqEA-8/maxresdefault.jpg)](https://www.youtube.com/watch?v=F5ignnqEA-8)
+
 > **⚠️ Disclaimer:** Herramienta desarrollada con fines estrictamente académicos para la asignatura de Seguridad Informática. El autor no se hace responsable del uso en redes no autorizadas.
 
 ## 📋 Características Técnicas
